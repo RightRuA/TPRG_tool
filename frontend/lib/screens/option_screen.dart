@@ -20,7 +20,7 @@ class OptionsScreen extends StatelessWidget {
               // 저장된 토큰 삭제
               await _storage.delete(key: 'access_token');
               await _storage.delete(key: 'refresh_token');
-              // 메인 화면으로 복귀(로그인 전 상태)
+              // 메인 화면으로 복1귀(로그인 전 상태)
               Navigator.of(context).popUntil((route) => route.isFirst);
             },
           ),

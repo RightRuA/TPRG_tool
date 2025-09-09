@@ -49,7 +49,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('로그인')),
+      appBar: AppBar(title: Text('로1그인')),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Form(
